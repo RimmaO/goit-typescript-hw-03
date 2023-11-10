@@ -48,8 +48,8 @@ class Employee {
 }
 
 class Manager extends Employee {
-  constructor(salary: number) {
-    super("name", "department", salary + 10000);
+  constructor(name: string, department: string, salary: number) {
+    super(name, department, salary + 10000);
   }
 }
 export {};
